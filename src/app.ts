@@ -6,6 +6,7 @@ const showPhoto = (): void => {
         <div class="card">
             <h3>Photo</h3>
             <div>Hi from app.ts!</div>
+            <img src="frog.png">
         </div>
     `
     container.innerHTML += output
