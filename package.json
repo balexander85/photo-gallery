@@ -1,0 +1,24 @@
+{
+  "name": "photo-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balexander85/photo-gallery.git"
+  },
+  "keywords": [],
+  "author": "Brian Alexander <brian@dadgumsalsa.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/balexander85/photo-gallery/issues"
+  },
+  "homepage": "https://github.com/balexander85/photo-gallery#readme",
+  "dependencies": {
+    "typescript": "^4.3.5"
+  }
+}
