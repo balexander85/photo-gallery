@@ -1,11 +1,20 @@
 const container: HTMLElement | any = document.getElementById("app");
 
-const showGallery = (): void => {
+
+const showPhoto = (): void => {
     let output: string = `
-        <div>Gallery</div>
-        <div>Hi from app.ts!</div>
+        <div class="card">
+            <h3>Photo</h3>
+            <div>Hi from app.ts!</div>
+        </div>
     `
     container.innerHTML += output
+}
+
+const showGallery = (): void => {
+    for (let i = 1; i <= 24; i++) {
+        showPhoto()
+    }
 }
 
 showGallery()

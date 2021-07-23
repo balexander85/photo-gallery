@@ -2,3 +2,38 @@ body {
     background-color: #377183;
     color: #b5d2dd;
 }
+
+h1 {
+    text-align: center;
+}
+
+main {
+    padding: 15px;
+    max-width: 1100px;
+    background-color: #6d6a6a;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#app {
+    color: brown;
+    padding: 25px;
+    background-color: #fcfafa;
+    text-align: center;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    grid-gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #dda974;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
